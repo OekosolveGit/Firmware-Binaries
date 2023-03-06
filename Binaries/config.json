@@ -1,0 +1,38 @@
+{
+    "thingsboard": {
+        "enabled": true,
+        "host": "192.168.0.169",
+        "port": 8080,
+        "ssl": false,
+        "username": "ESP32_DEMO_TOKEN"
+    },
+    "mqtt": {
+        "enabled": true,
+        "host": "192.168.0.169",
+        "port": 8883,
+        "ssl": true,
+        "username": "ESP32_DEMO_TOKEN",
+        "publish": {
+            "qos": 0,
+            "retain": false
+        }
+    },
+    "log_remote": {
+        "host": null,
+        "port": null
+    },
+    "connectors": {
+        "modbus_serial": true,
+        "modbus_tcp": true,
+        "meterbus": true,
+        "json":true,
+        "http":true,
+        "http_regex":true
+    },
+    "ntp": {
+        "enabled": true,
+        "ntp_server_1": "europe.pool.ntp.org",
+        "ntp_server_2": "uk.pool.ntp.org",
+        "timezone": "EET-2EEST,M3.5.0/3,M10.5.0/4"
+    }
+}

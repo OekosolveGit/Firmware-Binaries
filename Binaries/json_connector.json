@@ -1,0 +1,16 @@
+{
+	"poll_period_ms": 30000,
+	"devices":{
+		"Shelly1":{
+            "url":"http://192.168.0.173/settings",
+			"datapoints":{
+				"dev_type":{
+                    "valuepath":["device","type"]
+                },
+                "relay_state":{
+                    "valuepath":["relays", 0, "ison"]
+                }
+			}
+		}
+	}
+}
