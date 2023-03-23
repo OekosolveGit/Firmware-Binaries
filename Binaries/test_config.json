@@ -1,0 +1,37 @@
+[
+  {
+    "security": 
+    {
+      "device_profile" : "30N30",
+      "config_topic" : "Cloud",
+      "config_version" : "0.0"
+    },
+    "data":
+    [
+      {
+        "modbus_reg" : "6",
+        "modbus_size" : "3",
+        "corr" : "47.9",
+        "cloud_priority" : "4",
+        "cloud_key" : "uSoll",
+        "upload_diff" : "800.0"
+      },
+      {
+        "modbus_reg" : "6",
+        "modbus_size" : "3",
+        "corr" : "47.9",
+        "cloud_priority" : "4",
+        "cloud_key" : "uSoll",
+        "upload_diff" : "800.0"
+      },
+      {
+        "modbus_reg" : "6",
+        "modbus_size" : "3",
+        "corr" : "47.9",
+        "cloud_priority" : "4",
+        "cloud_key" : "uSoll",
+        "upload_diff" : "800.0"
+      } 
+    ]
+  }
+]
